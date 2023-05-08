@@ -1,0 +1,17 @@
+{
+  "name": "vaccination-certificates",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michal Wrzosek <michal@wrzosek.pl>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "blockchain",
+    "client"
+  ],
+  "scripts": {
+    "start": "yarn workspace @vc/client start"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
